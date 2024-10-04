@@ -21,4 +21,5 @@ public interface UrlRepository extends JpaRepository<Url, Long> {
     List<Url> deleteOldUrl(LocalDateTime period);
 
     Optional <Url> findByUrl(String url);
+
 }
